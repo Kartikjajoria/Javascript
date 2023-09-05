@@ -1,4 +1,4 @@
-et p1 = new Promise((resolve, reject)=>{
+let p1 = new Promise((resolve, reject)=>{
     console.log("promise is pending")
     setTimeout(()=>{
         console.log("i am a promise and i am fulfilled")
