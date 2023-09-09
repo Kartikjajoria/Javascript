@@ -32,4 +32,5 @@ const run = async()=>{
     console.log(a1a2a3)
     console.timeEnd("run")
 }
-run()
+a = run()
+console.log(a)
